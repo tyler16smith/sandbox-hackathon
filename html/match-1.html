@@ -22,8 +22,8 @@
     </head>
     <body data-mobile-nav-style="classic">
         <!-- start section -->
-        <section class="wow animate__fadeIn bg-light-blue" id="products">
-            <div class="container">
+        <section class="wow animate__fadeIn bg-light-blue">
+            <div class="container" id="content-mobile">
                 <div class="row justify-content-center wow animate__fadeIn">
                     <div class="col-12 col-xl-6 col-lg-7 col-sm-8 text-center">
                         <!-- <span class="d-inline-block alt-font text-medium text-gradient-venetian-worldwide-red text-uppercase font-weight-500 margin-20px-bottom sm-margin-15px-bottom">We're glad you're here</span> -->
@@ -48,7 +48,15 @@
                     </div>
                     <!-- end feature box item -->
                 </div>
-                <a href="match-2.html" class="btn btn-fancy btn-small btn-fast-blue-2 margin-help-btn btn-rounded" style="margin-left: 75%; margin-top: 50px;">Next</a>
+                <a href="match-2.html" onclick="" class="btn btn-fancy btn-small btn-fast-blue-2 margin-help-btn btn-rounded" style="margin-left: 75%; margin-top: 50px;">Next</a>
+            </div>
+            <div class="container" id="content-desktop">
+                <div class="row justify-content-center wow animate__fadeIn">
+                    <center>
+                        <h1 class="alt-font text-extra-dark-gray font-weight-600 letter-spacing-2px margin-100px-tb">Welcome to<br>SafeSpace</h1>
+                        <h4>Please download our mobile app in order to have the best experience. You may also go into inspect element and make it mobile mode. Thanks!</h4>
+                    </center>
+                </div>
             </div>
         </section>
         <!-- end section -->
@@ -56,6 +64,23 @@
         <a class="scroll-top-arrow" href="javascript:void(0);"><i class="feather icon-feather-arrow-up"></i></a>
         <!-- end scroll to top -->
         <!-- javascript -->
+        <script>
+            var name = document.getElementById("name").Value
+            var age = document.getElementById("age").Value
+            var phone = document.getElementById("phone").Value
+            var zip = document.getElementById("zip").Value
+            var gender = document.getElementById("gender").Value
+
+            class patient {
+                constructor() {
+                    this.name = document.getElementById("name").Value
+                }
+            }
+
+            initPatient() {
+                let newPatient = new patient()
+            }
+        </script>
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/theme-vendors.min.js"></script>
         <script type="text/javascript" src="js/main.js"></script>

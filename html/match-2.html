@@ -23,7 +23,7 @@
     <body data-mobile-nav-style="classic">
         <!-- start section -->
         <section class="wow animate__fadeIn bg-light-blue padding-85px-bottom" id="products">
-            <div class="container">
+            <div class="container" id="content-mobile">
                 <div class="row justify-content-center wow animate__fadeIn">
                     <div class="col-12 col-xl-6 col-lg-7 col-sm-8 text-center">
                         <h4 class="alt-font text-extra-dark-gray font-weight-600 letter-spacing-minus-1px margin-30px-top">What interests you?</h4><br>
@@ -36,16 +36,24 @@
                         <button onclick="makeOpaque(this)" class="btn btn-safe padding-15px-all btn-rounded-medium icon-extra-small">Politics</button><br><br>
                     </div>
                     <div class="col-4 col-xl-6 col-lg-7 col-sm-8 text-center">
-                        <button onclick="makeOpaque(this)" class="btn btn-safe padding-15px-all btn-rounded-medium icon-extra-small">Video Games</button><br><br>
+                        <button onclick="makeOpaque(this)" class="btn btn-safe padding-15px-all btn-rounded-medium icon-extra-small">Games</button><br><br>
                         <button onclick="makeOpaque(this)" class="btn btn-safe padding-15px-all btn-rounded-medium icon-extra-small">Travel</button><br><br>
                         <button onclick="makeOpaque(this)" id="button6" class="btn btn-safe padding-15px-all btn-rounded-medium icon-extra-small">Food</button><br><br>
                     </div>
                     <div class="col-4 col-xl-6 col-lg-7 col-sm-8 text-center">
                         <button onclick="makeOpaque(this)" class="btn btn-safe padding-15px-all btn-rounded-medium icon-extra-very-small">Chris Crittenden</button><br><br>
-                        <button onclick="makeOpaque(this)" class="btn btn-safe padding-15px-all btn-rounded-medium icon-extra-small">Art</button><br><br>
+                        <button onclick="makeOpaque(this)" class="btn btn-safe padding-15px-all btn-rounded-medium icon-extra-small">Film</button><br><br>
                         <button onclick="makeOpaque(this)" id="button6" class="btn btn-safe padding-15px-all btn-rounded-medium icon-extra-small">Music</button><br><br>
                     </div>
                     <a href="match-3.html" class="btn btn-fancy btn-small btn-fast-blue-2 margin-help-btn btn-rounded" style="margin-left: 50%;">Next</a>
+                </div>
+            </div>
+            <div class="container" id="content-desktop">
+                <div class="row justify-content-center wow animate__fadeIn">
+                    <center>
+                        <h1 class="alt-font text-extra-dark-gray font-weight-600 letter-spacing-2px margin-100px-tb">Welcome to<br>SafeSpace</h1>
+                        <h4>Please download our mobile app in order to have the best experience. You may also go into inspect element and make it mobile mode. Thanks!</h4>
+                    </center>
                 </div>
             </div>
         </section>
@@ -64,11 +72,23 @@
                 } else {
                     elem.style.opacity = "1"
                 }
+                // pass value to this user's class/DB
+                elem.value
             }
 
         </script>
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/theme-vendors.min.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
+
+        <!-- 
+            Match with counselor
+            Hotline button
+            Measuring progress
+            Activities - writing prompts
+            View resources
+            Therapist/patient messaging system
+        -->
+
     </body>
 </html>

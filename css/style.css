@@ -43,6 +43,14 @@ Table of contents
     01. Custom code
 ====================================== */
 
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+/* New rules if the window width is smaller than 700px */
+@media screen and (max-width: 600px) {
+    #content-desktop {display: none;}
+    #content-mobile {display: block;}
+}
 
 /* ===================================
     01. Google font
