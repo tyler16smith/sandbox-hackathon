@@ -7,6 +7,7 @@
 ----------------------------------
 Table of contents
 
+00. Custom code
 01. Google font
 02. Reset
 03. Typography
@@ -37,6 +38,11 @@ Table of contents
 28. Others
  
 */
+
+/* ===================================
+    01. Custom code
+====================================== */
+
 
 /* ===================================
     01. Google font
@@ -691,6 +697,7 @@ input.btn:focus { border-width: 2px; }
 
 /* rounded button */
 .btn.btn-round-edge-small { border-radius: 2px; }
+.btn.btn-rounded-medium { border-radius: 25px; }
 .btn.btn-rounded { border-radius: 50px; }
 .btn.btn-rounded.btn-very-small { padding: 6px 20px; }
 .btn.btn-rounded.btn-small { padding: 8px 26px }
@@ -781,6 +788,8 @@ input.btn:focus { border-width: 2px; }
 .btn.btn-light-gray:hover, .btn.btn-light-gray:focus { background: transparent; border-color: #dbdbdb; color: #dbdbdb; }
 .btn.btn-fast-blue { background: #0038e3; border-color: #0038e3; color: #ffffff; }
 .btn.btn-fast-blue:hover, .btn.btn-fast-blue:focus { background: transparent; color: #0038e3; }
+.btn.btn-fast-blue-2 { background: transparent; border-color: #0038e3; color: #0038e3; }
+.btn.btn-fast-blue-2:hover, .btn.btn-fast-blue:focus { background: #0038e3; color: #fff; }
 .btn.btn-green { background: #27AE60; border-color: #27AE60; color: #ffffff; }
 .btn.btn-green:hover, .btn.btn-green:focus { background: transparent; color: #27AE60; }
 .btn.btn-olivine-green { background: #8bb867; border-color: #8bb867; color: #ffffff; }
@@ -807,6 +816,7 @@ input.btn:focus { border-width: 2px; }
 .btn.btn-golden:hover, .btn.btn-golden:focus { background: transparent; color: #ca943d; }
 .btn.btn-golden-brown { background: #CD9452; border-color: #CD9452; color: #ffffff; }
 .btn.btn-golden-brown:hover, .btn.btn-golden-brown:focus { background: transparent; color: #CD9452; }
+.btn.btn-safe { background: #3a66e9; border-color: #3a66e9; color: #ffffff; }
 
 /* button only border */
 .btn.btn-transparent-white { background: transparent; border-color: #ffffff; color: #ffffff; }
@@ -1128,6 +1138,7 @@ input.btn:focus { border-width: 2px; }
 .margin-90px-top { margin-top:90px; }
 .margin-95px-top { margin-top:95px; }
 .margin-100px-top { margin-top:100px; }
+.margin-300px-top { margin-top:300px; }
 .margin-1-rem-top { margin-top: 1rem; }
 .margin-1-half-rem-top { margin-top: 1.5rem; }
 .margin-2-rem-top { margin-top: 2rem; }
@@ -1148,6 +1159,7 @@ input.btn:focus { border-width: 2px; }
 .margin-9-half-rem-top { margin-top: 9.5rem; }
 .margin-10-rem-top { margin-top: 10rem; }
 .margin-10-half-rem-top { margin-top: 10.5rem; }
+.margin-help-btn { margin-top: 150px; }
 
 /* margin bottom */
 .margin-one-bottom { margin-bottom:1%; }
@@ -1638,6 +1650,7 @@ input.btn:focus { border-width: 2px; }
 .padding-90px-bottom { padding-bottom:90px; }
 .padding-95px-bottom { padding-bottom:95px; }
 .padding-100px-bottom { padding-bottom:100px; }
+.padding-300px-bottom { padding-bottom:300px; }
 .padding-1-rem-bottom { padding-bottom: 1rem; }
 .padding-1-half-rem-bottom { padding-bottom: 1.5rem; }
 .padding-2-rem-bottom { padding-bottom: 2rem; }
@@ -1886,6 +1899,7 @@ input.btn:focus { border-width: 2px; }
 .padding-90px-lr { padding-left:90px; padding-right:90px; }
 .padding-95px-lr { padding-left:95px; padding-right:95px; }
 .padding-100px-lr { padding-left:100px; padding-right:100px; }
+.padding-200px-bottom { padding-bottom:500px; }
 .padding-1-rem-lr { padding-left: 1rem; padding-right: 1rem; }
 .padding-1-half-rem-lr { padding-left: 1.5rem; padding-right: 1.5rem; }
 .padding-2-rem-lr { padding-left: 2rem; padding-right: 2rem; }

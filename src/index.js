@@ -1,5 +1,5 @@
 import { initializeApp } from 'firebase/app';
-import { getFirestore, collection } from 'firebase/firestore';
+import { getFirestore, collection, getDoc } from 'firebase/firestore';
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = initializeApp ({
@@ -14,4 +14,7 @@ const firebaseConfig = initializeApp ({
   });
 
 const firestore = getFirestore(firebaseConfig);
+
 const users = collection(firestore, "users"); //retrieving the users on our page
+
+const user = getDoc(firestore, "users", user)

@@ -1,0 +1,69 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <title>Sandbox Hackathon</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="author" content="ThemeZaa">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+        <meta name="description" content="Made with Litho: a clean and modern design, BootStrap 4 responsive, business HTML5 framework.">
+        <!-- favicon icon -->
+        <link rel="shortcut icon" href="images/favicon.png">
+        <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+        <!-- style sheets and font icons  -->
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/theme-vendors.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/style.css" />
+        <link rel="stylesheet" type="text/css" href="../css/responsive.css" />
+        <!-- firebase configurations -->
+        <script src="src/index.js"></script>
+    </head>
+    <body data-mobile-nav-style="classic">
+        <!-- start section -->
+        <section class="wow animate__fadeIn bg-light-blue padding-85px-bottom" id="products">
+            <div class="container">
+                <div class="row justify-content-center wow animate__fadeIn">
+                    <div class="col-12 col-xl-6 col-lg-7 col-sm-8 text-center">
+                        <h4 class="alt-font text-extra-dark-gray font-weight-600 letter-spacing-minus-1px margin-30px-top">Which experiences do<br>you relate with?</h4><br>
+                    </div>
+                </div>
+                <div class="row justify-content-center wow animate__fadeIn">
+                    <div class="col-6 col-xl-6 col-lg-7 col-sm-8 text-center">
+                        <button onclick="makeOpaque(this)" class="btn btn-safe padding-10px-all btn-rounded-medium icon-extra-very-small">I feel nervous around friends</button><br><br>
+                        <button onclick="makeOpaque(this)" class="btn btn-safe padding-10px-all btn-rounded-medium icon-extra-very-small">I feel anxious in public places</button><br><br>
+                        <button onclick="makeOpaque(this)" class="btn btn-safe padding-10px-all btn-rounded-medium icon-extra-very-small">Sometimes I don't feel like getting out of bed</button><br><br>
+                    </div>
+                    <div class="col-6 col-xl-6 col-lg-7 col-sm-8 text-center">
+                        <button onclick="makeOpaque(this)" class="btn btn-safe padding-10px-all btn-rounded-medium icon-extra-very-small">I feel lonely</button><br><br>
+                        <button onclick="makeOpaque(this)" class="btn btn-safe padding-10px-all btn-rounded-medium icon-extra-very-small">I have thoughts of hurting myself</button><br><br>
+                        <button onclick="makeOpaque(this)" id="button6" class="btn btn-safe padding-10px-all btn-rounded-medium icon-extra-very-small">I have suicidal thoughts</button><br><br>
+                    </div>
+                    <a href="match-4.html" class="btn btn-fancy btn-small btn-fast-blue-2 margin-help-btn btn-rounded" style="margin-left: 50%;">Next</a>
+                </div>
+            </div>
+        </section>
+        <!-- end section -->
+        <!-- start scroll to top -->
+        <a class="scroll-top-arrow" href="javascript:void(0);"><i class="feather icon-feather-arrow-up"></i></a>
+        <!-- end scroll to top -->
+        <!-- javascript -->
+        <script>
+
+            function makeOpaque(elem) {
+                if (elem.style.opacity == "") {
+                    elem.style.opacity = "0.3"
+                } else if (elem.style.opacity == "1") {
+                    elem.style.opacity = "0.3"
+                } else {
+                    elem.style.opacity = "1"
+                }
+            }
+
+        </script>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/theme-vendors.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
